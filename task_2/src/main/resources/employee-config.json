@@ -1,0 +1,5 @@
+{
+  "COMMISSIONED": "pl.slabonart.task_2.model.CommissionedEmployee",
+  "HOURLY": "pl.slabonart.task_2.model.HourlyEmployee",
+  "SALARIED": "pl.slabonart.task_2.model.SalariedEmployee"
+}

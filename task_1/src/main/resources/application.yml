@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    name: library_db
+    platform: h2
+    generate-unique-name: false
+    username: SA
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      enabled: true

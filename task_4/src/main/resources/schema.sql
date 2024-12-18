@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS user_data (
+    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_name VARCHAR(255)
+);
